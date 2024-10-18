@@ -32,6 +32,9 @@ spring:
     host: localhost
     port: 6379
 
+  webflux:
+    base-path: /ws
+
 eureka:
   client:
     service-url:
