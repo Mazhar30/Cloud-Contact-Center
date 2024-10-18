@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/interaction_db
+    url: jdbc:postgresql://localhost:5432/records
     username: user
     password: password
     
