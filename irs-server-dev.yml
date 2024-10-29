@@ -29,7 +29,7 @@ spring:
         all: true
 
   redis:
-    host: redis-cache
+    host: redis
     port: 6379
 
 eureka:
