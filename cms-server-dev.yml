@@ -16,8 +16,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 redis:
-  host: http://redis-cache
-  port: 6379
+  host: ${REDIS_HOST}  # Use the environment variable
+  port: ${REDIS_PORT:6379}
 
 eureka:
   client:
