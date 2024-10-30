@@ -16,8 +16,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         
   redis:
-  host: redis 
-  port: 6379
+    host: redis 
+    port: 6379
 
 eureka:
   client:
