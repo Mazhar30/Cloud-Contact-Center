@@ -14,9 +14,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-
-redis:
-  host: redis  # Use the environment variable
+        
+  redis:
+  host: redis 
   port: 6379
 
 eureka:
