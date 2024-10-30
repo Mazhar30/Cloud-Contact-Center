@@ -17,5 +17,3 @@ spring:
           force-pull: true # pull the latest code from GIT in case the local repo has some issues and couldn't able to update the repo
           skipSslValidation: true # Git Server SSL validation can be disabled
           timeout: 10 #HTTP connection timeout (in seconds)
-          username: Mazhar30
-          password: Ayssala@123
